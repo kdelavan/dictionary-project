@@ -1,0 +1,12 @@
+.Dictionary h1 {
+  color: purple;
+  text-align: center;
+}
+
+.Dictionary form {
+  text-align: center;
+}
+
+.Dictionary #search-button {
+  margin-left: 5px;
+}

@@ -1,8 +1,9 @@
 .App-header {
+  text-align: center;
   color: purple;
-  margin: 25px;
 }
 
 .App-footer {
-  margin: 25px;
+  text-align: center;
+  margin: 30px;
 }

@@ -1,9 +1,34 @@
 .Dictionary {
-  margin: 25px;
+  background-color: #383a59;
+  margin: 20px;
+  padding: 40px;
+  border-radius: 10px;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.Phonetic a {
-  text-decoration: none;
-  color: purple;
-  margin: 10px;
+.Dictionary form {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.Dictionary #search-bar {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #f8f7eb;
+  border-radius: 5px;
+}
+
+.Dictionary #search-button {
+  margin-left: 8px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #502f84;
+  border-radius: 5px;
+  background-color: #4efa7b;
+  color: #383a59;
+  transition: all 150ms ease-in-out;
+}
+
+.Dictionary #search-button:hover {
+  background-color: #a280d4;
+  color: #f8f7eb;
 }

@@ -1,0 +1,12 @@
+.Results h2 {
+  font-size: 40px;
+}
+
+.Results h2,
+h4 {
+  color: #e56ba4;
+}
+
+.Results h4 {
+  margin: 10px 0 10px 0;
+}

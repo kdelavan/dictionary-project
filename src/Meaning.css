@@ -1,0 +1,17 @@
+.Meaning {
+  color: #f8f7eb;
+  font-size: 18px;
+}
+
+.Meaning .example {
+  font-size: 16px;
+  font-style: italic;
+  color: #86e8ee;
+}
+
+.Meaning hr {
+  height: 1px;
+  color: #f1fa8a;
+  opacity: 60%;
+  border: none;
+}

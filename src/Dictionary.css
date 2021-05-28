@@ -7,9 +7,14 @@
 }
 
 .Dictionary h1 {
-  color: #f8f7eb;
-  font-size: 20px;
+  color: #a280d4;
+  font-size: 32px;
   margin-bottom: 18px;
+}
+
+.Dictionary #what-word {
+  color: #f8f7eb;
+  font-size: 18px;
 }
 
 .Dictionary form {

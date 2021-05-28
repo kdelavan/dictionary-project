@@ -13,3 +13,11 @@
   text-decoration: none;
   color: #a280d4;
 }
+
+@media (max-width: 800px) {
+  .container {
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}

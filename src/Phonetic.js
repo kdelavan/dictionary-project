@@ -3,11 +3,17 @@ import React from "react";
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
+  const audio = new Audio(props.phonetic.audio);
+
+  function handleClick() {
+    audio.play();
+  }
+
   return (
     <div className="Phonetic">
-      <a href={props.phonetic.audio} target="_blank" rel="noopener noreferrer">
+      <button type="button" className="phoneticBtn" onClick={handleClick}>
         <i className="fas fa-volume-up"></i>
-      </a>
+      </button>
 
       {props.phonetic.text}
     </div>

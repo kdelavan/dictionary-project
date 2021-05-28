@@ -11,6 +11,6 @@
 
 .Meaning hr {
   height: 1px;
-  color: #f1fa8a;
+  color: #f1fa8a !important;
   opacity: 60%;
 }

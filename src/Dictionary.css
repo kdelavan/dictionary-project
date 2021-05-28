@@ -42,3 +42,9 @@
   background-color: #a280d4;
   color: #f8f7eb;
 }
+
+@media (max-width: 800px) {
+  .Dictionary {
+    padding: 22px;
+  }
+}

@@ -14,3 +14,9 @@
   color: #f1fa8a !important;
   opacity: 0.6 !important;
 }
+
+@media (max-width: 800px) {
+  .Meaning hr {
+    margin: 5px;
+  }
+}

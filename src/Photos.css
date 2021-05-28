@@ -6,3 +6,18 @@
 .Photos .row {
   padding-top: 12px;
 }
+
+@media (max-width: 800px) {
+  .Photos img {
+    margin: 9px;
+  }
+
+  .Photos .row {
+    padding-top: 8px;
+  }
+
+  .Photos .col-sm-3 {
+    padding-right: 24px;
+    padding-left: 7px;
+  }
+}

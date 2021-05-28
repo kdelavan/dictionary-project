@@ -12,5 +12,5 @@
 .Meaning hr {
   height: 1px;
   color: #f1fa8a !important;
-  opacity: 60%;
+  opacity: 0.6 !important;
 }

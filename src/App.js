@@ -25,7 +25,15 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            GitHub{" "}
+          </a>
+          - Hosted with{" "}
+          <a
+            href="https://www.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>

@@ -11,7 +11,7 @@ export default function Phonetic(props) {
 
   return (
     <div className="Phonetic">
-      <button type="button" className="phoneticBtn" onClick={handleClick}>
+      <button type="button" className="phoneticButton" onClick={handleClick}>
         <i className="fas fa-volume-up"></i>
       </button>
 

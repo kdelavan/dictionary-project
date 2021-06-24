@@ -37,6 +37,7 @@ export default function Dictionary(props) {
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
+    
   }
 
   function load() {
@@ -53,6 +54,7 @@ export default function Dictionary(props) {
           <input
             id="search-bar"
             type="search"
+            autoComplete="off"
             placeholder="Enter a word"
             onChange={handleKeywordChange}
           />

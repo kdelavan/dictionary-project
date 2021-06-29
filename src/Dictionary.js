@@ -33,11 +33,11 @@ export default function Dictionary(props) {
   function handleSubmit(event) {
     event.preventDefault();
     search();
+    event.currentTarget.reset();
   }
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
-    
   }
 
   function load() {
